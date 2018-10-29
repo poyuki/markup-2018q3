@@ -2,14 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Ghost Host</title>
 </head>
 <body>
 <header>
-    <div id="header-logo"><img src="assets/img/logo.png" alt="logo"></div>
-    <nav></nav>
+    <nav class="header-top center">
+        <a href="#"><img src="assets/img/logo.png" alt="logo"></a>
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Domain</a></li>
+            <li><a href="#">Hosting</a></li>
+            <li><a href="#">Clients</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Support</a></li>
+        </ul>
+    </nav>
+    <div class="header-mid">
+        <h1>Hello!</h1>
+        <p>We love our work...</p>
+        <p>And We're taking it seriously...</p>
+    </div>
+    <div class="header-bot">
+        <a href="#">Login</a>
+        <a href="#">Register</a>
+    </div>
 </header>
-<main></main>
+<main>
+    <section id="domain" class="domain">
+        <article class="center">
+            <h2>Would you like to buy a new domain?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="input-address">
+                <span>www.</span>
+                <input type="text" placeholder="What do you want?">
+                <select name="first domain" id="first-domain">
+                    <option value=".com" select>.com</option>
+                    <option value=".net">.net</option>
+                    <option value=".org">.org</option>
+                </select>
+            </div>
+            <table class="price-table" cellspacing="0">
+                <tbody>
+                <tr>
+                    <td>.COM</td>
+                    <td>1 Year</td>
+                    <td>$9.00 USD</td>
+                    <td>Transfer Price No</td>
+                </tr>
+                <tr>
+                    <td>.NET</td>
+                    <td>1 Year</td>
+                    <td>$9.00 USD</td>
+                    <td>Transfer Price No</td>
+                </tr>
+                </tbody>
+            </table>
+        </article>
+    </section>
+    <section id="package" class="package">
+        <div class="partial-bg"></div>
+        <article class="center">
+            <div id="base-pack" class="package-cards"></div>
+            <div id="normal-pack" class="package-cards"></div>
+            <div id="big-pack" class="package-cards"></div>
+            <div id="biggest-pack" class="package-cards"></div>
+        </article>
+    </section>
+</main>
 <footer></footer>
 </body>
 </html>
