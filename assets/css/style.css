@@ -451,10 +451,10 @@ div.package-cards-head > i:after {
 
 #slider{
     background-image: url("../img/comments-bg.jpg");
-    background-position: 50% 65%;
+    background-position: 50% 72%;
     position: relative;
-    height: 300px;
-    padding-top: 100px;
+    height: 200px;
+    padding-top: 70px;
     box-sizing: border-box;
 }
 
@@ -508,4 +508,133 @@ div.package-cards-head > i:after {
 }
 .active-slide{
     background-color: #fff;
+}
+#services{
+    height: 300px;
+}
+.services-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.service{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.service-link-image{
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    font-size: 25px;
+    line-height: 60px;
+    color:#fff;
+}
+.service-link-image.bolt{
+    background-color: #ff0;
+}
+.service-link-image.cloud{
+    background-color: #00bfff;
+}
+.service-link-image.arrows{
+    background-color: #808080;
+}
+.service-link-image.comments{
+    background-color: #ff4500;
+}
+
+.service-link-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+}
+
+.service-excerpt{
+    color: #808080;
+}
+
+.service a{
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: #808080;
+    color: #fff;
+}
+footer a{
+    color: #fff;
+}
+footer>*:not(.active-link-foot){
+    /*opacity: 0.5;*/
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(209, 209, 209, 0.4);
+}
+
+.footer-top>span{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+}
+
+.footer-bot{
+    display: flex;
+    padding: 30px 0;
+
+}
+.footer-bot>*{
+    width: 33%;
+}
+.footer-bot>article{
+    text-align: justify;
+    padding-right: 70px;
+    border-right: 1px solid rgba(209, 209, 209, 0.4);
+}
+.footer-bot>.second-foot-nav{
+    padding: 0 100px;
+}
+.footer-bot>address{
+    padding-left: 70px;
+    border-left: 1px solid rgba(209, 209, 209, 0.4);
+}
+
+.second-foot-nav{
+    display:flex;
+    justify-content: space-around;
+}
+.second-foot-nav>div{
+    display: flex;
+    flex-direction: column;
+}
+.footer-bot a:before{
+    font-family: FontAwesome;
+    display: inline-block;
+    padding-right: 6px;
+    vertical-align: middle;
+
+}
+.second-foot-nav a:before{
+    content: "\f105";
+}
+
+address{
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+}
+address a.phone:before{
+    content: "\f095"
+}
+address a.mail:before{
+    content: "\f0e0"
 }
