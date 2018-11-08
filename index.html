@@ -5,21 +5,23 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
           integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
           crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+
     <title>Ghost Host</title>
 </head>
 <body>
 <header>
     <nav class="header-top center">
         <a href="#"><img src="assets/img/logo.png" alt="logo"></a>
-        <ul>
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Domain</a></li>
-            <li><a href="#">Hosting</a></li>
-            <li><a href="#">Clients</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Support</a></li>
-        </ul>
+        <div>
+            <a href="#" class="active-header-link">Home</a></li>
+            <a href="#">Domain</a>
+            <a href="#">Hosting</a>
+            <a href="#">Clients</a>
+            <a href="#">Blog</a>
+            <a href="#">Support</a>
+        </div>
     </nav>
     <div class="header-mid">
         <h1>Hello!</h1>
@@ -27,8 +29,8 @@
         <p>And We're taking it seriously...</p>
     </div>
     <div class="header-bot">
-        <a href="#">Login</a>
-        <a href="#">Register</a>
+        <a class="btn-login" href="#"><div>Login</div></a>
+        <a class="btn-register" href="#"><div>Register</div></a>
     </div>
 </header>
 <main>
@@ -315,7 +317,6 @@
                     <div class="slider-control-els" data-number="2"></div>
                 </div>
             </div>
-
         </div>
     </section>
     <section id="services">
@@ -373,9 +374,9 @@
     </nav>
     <section class="footer-bot center">
         <article>
-            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Lobortis mattis aliquam faucibus purus
-                in massa.
+            <div>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.
             </div>
             <div>
                 Design by <b>Mert Can Eyriyer</b>
@@ -383,21 +384,21 @@
         </article>
         <nav class="second-foot-nav">
             <div>
-                <a href="#">Support</a>
-                <a href="#">Account</a>
-                <a href="#">Product Catalog</a>
-                <a href="#">Shortcodes</a>
+                <a href="#" class="fas fa-angle-right active-link-foot">Support</a>
+                <a href="#" class="fas fa-angle-right">Account</a>
+                <a href="#" class="fas fa-angle-right">Product Catalog</a>
+                <a href="#" class="fas fa-angle-right">Shortcodes</a>
             </div>
             <div>
-                <a href="#">Site Map</a>
-                <a href="#">Whoise Search</a>
-                <a href="#">Web Mail</a>
-                <a href="#">Find Domain</a>
+                <a href="#" class="fas fa-angle-right">Site Map</a>
+                <a href="#" class="fas fa-angle-right">Whoise Search</a>
+                <a href="#" class="fas fa-angle-right">Web Mail</a>
+                <a href="#" class="fas fa-angle-right">Find Domain</a>
             </div>
         </nav>
         <address>
-            <a class="phone" href="tel:00000000000000">0000-0000-0000</a>
-            <a class="mail"href="mailto:informationteam@ghost.com">informationteam@ghost.com</a>
+            <a class="phone fas fa-phone" href="tel:00000000000000">0000-0000-0000</a>
+            <a class="mail fas fa-envelope" href="mailto:informationteam@ghost.com">informationteam@ghost.com</a>
             <span class="address">Lorem Ipsum Streat. Lorm Avenue</span>
             <span>Lorem Ipsum</span>
         </address>
