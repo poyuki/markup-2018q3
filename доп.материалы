@@ -1,0 +1,17 @@
+Interactive == some effects or animations on user's interactions like hover or click.
+
+Header.
+    Interactive nav
+    Think of where h1 should be used
+    Interactive login/register
+Main.
+    Interactive domain input with dropdown of first domains (.com, .net, .org).
+    Table should strictly be the same as design, and the cells number should be as much, as visible cells are.
+    The circle elements should be made using CSS, transformations.
+    The itmes should be intractive on hover.
+    links in "about us" should be interactive.
+    The feddback items should be interactive. (слайдер делать функциональным не обязательно, но желательно)
+    Services items should be links.
+Footer
+    Menus should be intractive
+    Phone and mail interactions should correspond correctly. (например, при нажатии на телефон должно предложить звонок)
